@@ -8,7 +8,7 @@
 #dtb-y +=  exynos8890-gracelte_eur_open_09.dtb
 #dtb-y +=  exynos8890-gracelte_eur_open_11.dtb
 
-dtb-$(CONFIG_MODEL_GRACELTE) += exynos8890-gracelte_eur_open_05.dtb exynos8890-gracelte_eur_open_07.dtb exynos8890-gracelte_eur_open_09.dtb exynos8890-gracelte_eur_open_11.dtb
+dtb-$(CONFIG_MODEL_GRACELTE) += exynos8890-gracelte_eur_open_00.dtb exynos8890-gracelte_eur_open_01.dtb exynos8890-gracelte_eur_open_02.dtb exynos8890-gracelte_eur_open_03.dtb exynos8890-gracelte_eur_open_05.dtb exynos8890-gracelte_eur_open_07.dtb exynos8890-gracelte_eur_open_09.dtb exynos8890-gracelte_eur_open_11.dtb
 
 targets += dtbs
 DTB_LIST  := $(dtb-y) $(dtbo-y)
